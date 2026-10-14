@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "space-clock",
+      "runtimeExecutable": "pwsh",
+      "runtimeArgs": ["-NoProfile", "-File", "server.ps1", "-Port", "8080"],
+      "port": 8080
+    }
+  ]
+}
